@@ -1,0 +1,9 @@
+{% extends "base.html" %}
+
+{% block content %}
+    <h1 class="font-bold text-3xl">
+        {{ page.title }}
+    </h1>
+    <p class="font-light text-gray-600">{{ page.date }}</p>
+    {{ page.content | safe }}
+{% endblock content %}
