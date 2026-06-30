@@ -1,0 +1,8 @@
+base_url = "https://gopher.graphics"
+compile_sass = false
+build_search_index = true
+
+[markdown]
+
+[markdown.highlighting]
+theme = "catppuccin-mocha"

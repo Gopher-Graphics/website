@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "zola build $BUILD_OPTS && npx @tailwindcss/cli -i ./static/pretailwind.css -o ./public/style.css -m",
+    "serve": "zola serve $SERVE_OPTS --interface 127.0.0.1 & npx @tailwindcss/cli -i ./static/pretailwind.css -o ./public/style.css --watch && wait",
+    "test": "echo 'This static site has no unit tests.'"
+  },
+  "devDependencies": {
+    "@tailwindcss/cli": "^4.0.0",
+    "tailwindcss": "^4.0.0"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  }
+}
