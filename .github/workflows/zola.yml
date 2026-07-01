@@ -1,0 +1,47 @@
+name: Build and deploy Zola website
+on:
+  push:
+    branches:
+      - main
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: true
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: checkout
+        uses: actions/checkout@v6.0.1
+
+      - uses: taiki-e/install-action@v2
+        with:
+          tool: zola@0.22.1
+
+      - name: build zola and tailwind
+        run: |
+          npm i
+          npm run build
+
+      - name: Upload build artifact to Github Pages
+        id: deployment
+        uses: actions/upload-pages-artifact@v3
+        with:
+            path: public/
+
+  deploy:
+    runs-on: ubuntu-latest
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy to Github Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
