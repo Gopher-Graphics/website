@@ -4,4 +4,11 @@ template = "section.html"
 page_template = "article.html"
 sort_by = "weight"
 +++
-Placeholder weclome text. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+Gopher Graphics is a space for University of Minnesota students to do computer graphics, VR, 3D modeling, and animation.
+We host workshops and events where members can hang out and explore graphics.
+
+This site hosts some of our past [graphics demos](@/demos/_index.md), as well as information about our [officers](@/contact.md) and how to [join](@/join.md) the club.
+<br>
+<br>
+<br>
+{{ action_btn(link="/events", button_text="Events", descriptor_text="The best way to learn about Gopher Graphics is to come to one of our") }}
