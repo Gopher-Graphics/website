@@ -1,9 +1,15 @@
 {% extends "section.html" %}
 
 {% block section_body %}
-<ul>
-    {% for page in section.pages %}
-        <li><a href="{{ page.permalink | safe}}">{{ page.title}}</a></li>
-    {% endfor %}
-</ul>
+{% for page in section.pages %}
+<a href="{{ page.permalink | safe}}">
+<div class="border p-3.5 font-light text-slate-900 border-slate-900">
+    <h1 class="text-3xl">{{ page.title }}</h1>
+    <p>{{ page.description }}</p>
+</div></a>
+{% endfor %}
 {% endblock section_body %}
+
+{% block article_body %}
+{{ super() }}
+{% endblock article_body %}

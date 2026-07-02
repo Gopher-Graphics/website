@@ -1,0 +1,17 @@
+{% extends "article.html" %}
+{% block content %}
+{{ super() }}
+{% endblock content %}
+
+{% block article_body %}
+{{ super() }}
+<div class="border p-3.5 font-light text-slate-900 border-slate-900">
+    <h1 class="text-5xl">
+        Demo Content 1
+    </h1>
+    <p>
+        Example demo contents 1. This section can be changed to include contents
+        as needed. Make a new template for each demo.
+    </p>
+</div>
+{% endblock article_body %}
