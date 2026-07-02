@@ -1,10 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-    <h1 class="font-bold text-3xl">
+<div class="border p-3.5 font-light text-slate-900 border-slate-900">
+    <h1 class="text-3xl">
         {{ page.title }}
     </h1>
-    <p class="font-light text-gray-600">{{ page.date }}</p>
     {{ page.content | safe }}
-    {% block article_body %} {% endblock article_body %}
+</div>
+{% block article_body %} {% endblock article_body %}
 {% endblock content %}
