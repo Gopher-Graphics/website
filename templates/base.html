@@ -10,8 +10,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
-<body>
-    {% block content %} {% endblock content %}
+<body class="bg-slate-50 flex justify-center">
+    <div class="w-11/12 max-w-3xl flex flex-col mt-40">
+        <div class="bg-rose-300 p-3.5 flex flex-col gap-5">
+        {% block header %}
+            <a href="/">
+                <h1 class="font-light text-slate-900 text-5xl">Gopher Graphics</h1>
+            </a>
+            <div class="flex max-w-full w-2xs justify-between">
+                {% set home_section = get_section(path = "_index.md" ) %}
+                {% for page in home_section.pages %}
+                    {% if page.title %}
+                    <a class="font-light text-slate-900" href="{{ page.permalink | safe}}">{{ page.slug }}</a>
+                    {% endif %}
+                {% endfor %}
+                {% for subsection_path in home_section.subsections %}
+                    {% set subsection = get_section(path = subsection_path) %}
+                    {% if subsection.title %}
+                    <a class="font-light text-slate-900" href="{{ subsection.permalink | safe}}">{{ subsection.components | last }}</a>
+                    {% endif %}
+                {% endfor %}
+            </div>
+        {% endblock header%}
+        </div>
+        <div>
+        {% block content %} {% endblock content %}
+        </div>
+    </div>
 </body>
 
 </html>
