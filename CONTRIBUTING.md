@@ -1,16 +1,18 @@
 # Contributing
 
+Clone repo and install dependencies
 ```bash
-# clone repo and install dependencies
 git clone git@github.com:Gopher-Graphics/website.git
 cd website
 npm i
 ```
 
+Serve development server to http://127.0.0.1:1111
 ```bash
-# serve development server to http://127.0.0.1:1111
 npm run serve
 ```
+
+Do your work on a branch named `<your name or username>/<topic>`, like `arbor/officer-cards`.
 
 If you only want to change text content on the site, it is safe to edit the Markdown files in `website/content/`.
 Do not change the header that starts and ends with `+++`.
