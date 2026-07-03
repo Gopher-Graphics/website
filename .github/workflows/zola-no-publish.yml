@@ -1,4 +1,4 @@
-name: Build Zola website without deploy
+name: Build Check
 on:
   push:
 
