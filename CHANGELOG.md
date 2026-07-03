@@ -11,3 +11,11 @@ Bump either big or default and add a new list of changes when you make a PR.
 - Github Actions CI added.
 - [README](README.md), [CONTRIBUTING](CONTRIBUTING.md), and [CHANGELOG](CHANGELOG.md) written.
 - Tera templates initialized.
+
+## 0.1
+
+- Template hierarchy created.
+- Site themeing created using Tailwind as in [Issue #1](https://github.com/Gopher-Graphics/website/issues/1).
+- Pages, metadata, and placeholder content written.
+- Officer and demo card pages added with placeholder officer and demo data.
+- Public Google Calendar added.
