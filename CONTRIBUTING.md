@@ -23,3 +23,5 @@ Other files will end in their name (`website/content/blog/post1.md` would appear
 Otherwise, make yourself familiar with Zola and Tailwind:
 - Read the [Zola Overview](https://www.getzola.org/documentation/getting-started/overview/) if you are unfamiliar with Zola.
 - Read the [Tailwind Styling with Utility Classes](https://tailwindcss.com/docs/styling-with-utility-classes) if you are unfamiliar with Tailwind.
+
+Make sure to update the [CHANGELOG.md](CHANGELOG.md) as needed.
