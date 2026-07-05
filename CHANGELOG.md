@@ -20,3 +20,7 @@ Bump either big or default and add a new list of changes when you make a PR.
 - Pages, metadata, and placeholder content written.
 - Officer and demo card pages added with placeholder officer and demo data.
 - Public Google Calendar added.
+
+## 0.2-content
+
+- Index text content added.
