@@ -8,7 +8,7 @@
 {% set officers_section = get_section(path = "officers/_index.md" ) %}
 {% for page in officers_section.pages %}
     <a class="font-light text-slate-900" href="{{ page.extra.link }}">
-        <div class="border hover:bg-slate-100 active:bg-slate-300 p-3.5 font-light text-slate-900 border-slate-900 flex justify-between">
+        <div class="border hover:bg-slate-100 active:bg-slate-300 p-3.5 font-light text-slate-900 border-slate-900 flex justify-between gap-4">
             <div class="gap-3 flex flex-col">
                 <h1 class="text-3xl">
                     {{ page.extra.name }}
