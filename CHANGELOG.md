@@ -24,3 +24,4 @@ Bump either big or default and add a new list of changes when you make a PR.
 ## 0.2-content
 
 - Index text content added.
+- Updated and fleshed out contributing docs and README.
