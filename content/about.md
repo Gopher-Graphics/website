@@ -2,4 +2,14 @@
 title = "About Us"
 weight = 0
 +++
-Placeholder about text. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+Founded in 2023 at the University of Minnesota, Gopher Graphics strives to
+1) provide a space for graduate and undergraduate students to discuss computer graphics,
+VR, 3D modeling, and animation,
+2) to dedicate time to discuss and dissect papers in the field that interest students,
+3) have workshop meetings so students at a variety of skill levels can explore graphics,
+4) hold open house hours where students can convene to talk about their graphics studies
+and projects, providing a space for those with this interest, and
+5) to host time-limited events where participants work together to create graphics from
+scratch.
+
+Anyone and everyone is welcome, and we hope to see you at our next event!
