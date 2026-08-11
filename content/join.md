@@ -2,7 +2,9 @@
 title = "Membership"
 weight = 3
 +++
-Placeholder membership text. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+To be considered a member, we ask that you come to at least 3 events over the course of the semester. 
+That being said, everyone is welcome at all meetings, and we cater to all experience levels! 
+Check out our Events page to learn more about upcoming meetings.
 
 <br>
 <br>
