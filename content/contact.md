@@ -3,7 +3,8 @@ title = "Contact and Officers"
 template = "contact.html"
 weight = 1
 +++
-Placeholder contact text. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+The following are the officers of Gopher Graphics as of Fall '26.
+For those with personal pages or contact info, feel free to browse our projects or reach out!
 
 <br>
 <br>
