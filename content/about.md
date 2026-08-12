@@ -2,14 +2,19 @@
 title = "About Us"
 weight = 0
 +++
-Founded in 2023 at the University of Minnesota, Gopher Graphics strives to
-1) provide a space for graduate and undergraduate students to discuss computer graphics,
-VR, 3D modeling, and animation,
-2) to dedicate time to discuss and dissect papers in the field that interest students,
-3) have workshop meetings so students at a variety of skill levels can explore graphics,
-4) hold open house hours where students can convene to talk about their graphics studies
-and projects, providing a space for those with this interest, and
-5) to host time-limited events where participants work together to create graphics from
-scratch.
+We host [regular meetings](@/events.md) that alternate between more structured workshops and less structured social/work time.
+Workshops are an interactive presentation walking through interacting with a graphics concept.
+Our less structured meetings are group work time, social events, or more impromptu discussions.
+The best way to get to know the club is to come to a meeting.
 
-Anyone and everyone is welcome, and we hope to see you at our next event!
+We don't expect strong knowledge of computer graphics coming into most workshops, though it may be helpful to make it to earlier workshops as we progress into more advanced topics later in the semester.
+It may also be helpful to have some knowledge about programming in general.
+We don't exclusively focus on programming and rendering, and we also often talk about and have workshops on 3D modeling, Typesetting, graphic design, and other computer graphics.
+
+Our [demos page](@/demos/_index.md) has some projects that members of our club have worked on.
+If you have interest in any kind of computer graphics, we would love to have you at our events!
+
+We can also be found on [Gopherlink](@/gopherlink.md), [Github](@/github.md), [Discord](@/discord.md).
+
+To keep up with Gopher Graphics news, you can join our [mailing list](@/email.md).
+We promise not to spam your inbox!

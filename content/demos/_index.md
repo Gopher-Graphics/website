@@ -4,4 +4,6 @@ template = "demo-list.html"
 page_template = "demo.html"
 sort_by = "weight"
 +++
-Placeholder demo page text. Lorem ipsum dolor sit amet consectetur adipiscing elit. Quisque faucibus ex sapien vitae pellentesque sem placerat. In id cursus mi pretium tellus duis convallis. Tempus leo eu aenean sed diam urna tempor. Pulvinar vivamus fringilla lacus nec metus bibendum egestas. Iaculis massa nisl malesuada lacinia integer nunc posuere. Ut hendrerit semper vel class aptent taciti sociosqu. Ad litora torquent per conubia nostra inceptos himenaeos.
+These are graphics demos made by our members.
+
+If you would like to get a new demo on here, feel free to make a [new issue](https://github.com/Gopher-Graphics/website/issues/new) on the Github repository for this site or email us at [gfx@umn.edu](mailto:gfx@umn.edu).
