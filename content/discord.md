@@ -1,5 +1,5 @@
 +++
 template = "redirect.html"
-extra.redirect_url = "https://discord.gg/CG6MCqjSYM"
+extra.redirect_url = "https://z.umn.edu/ggdiscord/"
 weight = 0
 +++
