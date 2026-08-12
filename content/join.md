@@ -2,10 +2,8 @@
 title = "Membership"
 weight = 3
 +++
-To be considered a member, we ask that you come to at least 3 events over the course of the semester. 
-That being said, everyone is welcome at all meetings, and we cater to all experience levels! 
-Check out our Events page to learn more about upcoming meetings.
+In order to become a member, attend at least 3 events during the semester.
+Membership allows you to vote in our elections at the end each spring semester.
+For more information, see our [constitution](https://drive.google.com/file/d/1Kc0ZD2PeRq71tbIoxFGUfby6EuJw15e5/view?usp=sharing).
 
-<br>
-<br>
-{{ action_btn(link="/events", button_text="Events!", descriptor_text="Why don't you go check out our") }}
+If you want to get involved in Gopher Graphics, the best thing to do is come hang out at our [events](@/events.md).
