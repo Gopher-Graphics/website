@@ -2,7 +2,8 @@
 <html lang="{{ lang }}">
 
 <head>
-    <link rel="stylesheet" type="text/css" href="/style.css">
+    <link rel="stylesheet" type="text/css" href="/style.css"/>
+    <link rel="icon" type="image/png" href="/favicon.png"/>
 
     <title>Gopher Graphics</title>
     <meta charset="UTF-8">
@@ -30,7 +31,7 @@
                     <a class="hover:underline active:underline-offset-2 font-light text-slate-900" href="{{ subsection.permalink | safe}}">{{ subsection.components | last }}</a>
                     {% endif %}
                 {% endfor %}
-		<a href="https://github.com/Gopher-Graphics/website">
+		<a href="/github">
 			<img class="h-[1.5em]" src="/images/github-logo.svg"/>
 		</a>
             </div>
