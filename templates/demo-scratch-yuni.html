@@ -1,0 +1,15 @@
+{% extends "article.html" %}
+{% block content %}
+{{ super() }}
+{% endblock content %}
+
+{% block article_body %}
+{{ super() }}
+<div class="border font-light text-slate-900 border-slate-900 gap-3 flex flex-col h-xl">
+    <iframe
+        title="Scratch Yumagia Demo"
+        class="w-full h-150"
+        src="/demo-assets/scratch-yuni.html">
+    </iframe>
+</div>
+{% endblock article_body %}
