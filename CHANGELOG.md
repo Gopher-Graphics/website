@@ -29,3 +29,4 @@ Bump either big or default and add a new list of changes when you make a PR.
 # 0.3-officers
 
 - Officer information cards added.
+- Officer cards link or show images if metadata is available.

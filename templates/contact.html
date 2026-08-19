@@ -7,8 +7,12 @@
 {{ super() }}
 {% set officers_section = get_section(path = "officers/_index.md" ) %}
 {% for page in officers_section.pages %}
-    <a class="font-light text-slate-900" href="{{ page.extra.link }}">
-        <div class="border hover:bg-slate-100 active:bg-slate-300 p-3.5 font-light text-slate-900 border-slate-900 flex justify-between gap-4">
+    {% if page.extra.link %}
+    <a class="font-light text-slate-900 hover:bg-slate-100 active:bg-slate-300" href="{{ page.extra.link }}">
+    {% else %}
+    <div class="font-light text-slate-900">
+    {% endif %}
+        <div class="border p-3.5 font-light text-slate-900 border-slate-900 flex justify-between gap-4">
             <div class="gap-3 flex flex-col">
                 <h1 class="text-3xl">
                     {{ page.extra.name }}
@@ -18,8 +22,14 @@
                 </h2>
                 {{ page.content | safe }}
             </div>
+            {% if page.extra.image%}
             <img class="max-w-2xs" src="{{ page.extra.image }}" alt="{{ page.extra.image_alt }}"/>
+            {% endif %}
         </div>
+    {% if page.extra.link %}
     </a>
+    {% else %}
+    </div>
+    {% endif %}
 {% endfor %}
 {% endblock article_body %}

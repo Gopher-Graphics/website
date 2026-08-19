@@ -1,8 +1,6 @@
 +++
 extra.name = "Yuni"
 extra.title = "President"
-extra.image = ""
-extra.image_alt = ""
 extra.link = "http://yumagia.dev"
 weight = 0
 +++
