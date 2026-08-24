@@ -24,10 +24,14 @@ jobs:
         with:
           tool: zola@0.22.1
 
+      - uses: joerdav/setup-xc@v1
+        with:
+          id: install
+
       - name: build zola and tailwind
         run: |
-          npm i
-          npm run build
+          xc install
+          xc build
 
       - name: Upload build artifact to Github Pages
         id: deployment
