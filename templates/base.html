@@ -18,7 +18,7 @@
             <a class="hover:underline active:underline-offset-2" href="/">
                 <h1 class="font-light text-slate-900 text-5xl">Gopher Graphics</h1>
             </a>
-            <div class="flex max-w-full w-2xs justify-between">
+            <div class="flex flex-row gap-5 justify-between w-fit flex-wrap">
                 {% set home_section = get_section(path = "_index.md" ) %}
                 {% for page in home_section.pages %}
                     {% if page.title %}
