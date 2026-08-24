@@ -26,7 +26,8 @@ Bump either big or default and add a new list of changes when you make a PR.
 - Index text content added.
 - Updated and fleshed out contributing docs and README.
 
-# 0.3-officers
+## 0.3-officers
 
 - Officer information cards added.
 - Officer cards link or show images if metadata is available.
+- Links page to show list of quick links / redirects.
