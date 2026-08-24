@@ -17,9 +17,68 @@ If you want to become a member, more information can be found [here](https://gop
 
 ## I Want to Help
 
-If you would like to help with the site, see [CONTRIBUTING.md](CONTRIBUTING.md).
+If you have any questions, feel free to open an [issue](/Gopher-Graphics/website/issues) and ping @arbormoss or @david-callender.
 
-- [Zola](https://www.getzola.org/) is used to generate HTML pages from [markdown](https://markdown.org/basics/) and templates.
+- [Zola](https://www.getzola.org/) is used to generate HTML pages from Markdown and [Tera](https://keats.github.io/tera/) templates.
 - [Tailwind](https://tailwindcss.com/) is used to style the site using [utility classes](https://tailwindcss.com/docs/styling-with-utility-classes).
 
 [CHANGELOG.md](CHANGELOG.md) has a history of changes to the site.
+Make sure to update it when you make changes.
+
+Do your work on a branch named `<your name or username>/<topic>`, like `arbor/officer-cards`.
+
+### Text Content
+
+Text content is in the `content/` directory.
+
+Each markdown file needs a header that starts and ends with a line of `+++`.
+Inside the header, the title of the article is set with `title = "<page title>"`, and the ordering weight is set with `weight = <page weight>`.
+
+The rest of the file is Markdown.
+
+### Resources
+
+- [Zola Overview](https://www.getzola.org/documentation/getting-started/overview/)
+- [Tailwind Styling with Utility Classes](https://tailwindcss.com/docs/styling-with-utility-classes)
+- [Tera](https://keats.github.io/tera/) (Zola's templating engine)
+
+## Tasks
+
+These are tasks written for the [xc](https://xcfile.dev/) task runner.
+They are the same ones used by the build system/CI.
+
+Either install `xc` and run `xc <task>` or just copy them into your shell.
+
+### install
+
+Make sure to run this once after cloning the site to install npm dependancies.
+
+```
+npm install
+```
+
+### serve
+
+Serve development server to [http://127.0.0.1:1111](http://127.0.0.1:1111)
+(will use higher port if 1111 is in use, starting at 1024).
+
+```sh
+zola serve &                    \
+    npx @tailwindcss/cli        \
+    -i ./static/pretailwind.css \
+    -o ./public/style.css       \
+    --watch
+
+wait
+```
+
+### build 
+
+Build the site into the `public/` directory.
+
+```sh
+zola build
+npx @tailwindcss/cli            \
+    -i ./static/pretailwind.css \
+    -o ./public/style.css -m
+```
