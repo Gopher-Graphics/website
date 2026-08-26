@@ -11,4 +11,8 @@ This site hosts some of our past [graphics demos](@/demos/_index.md), as well as
 <br>
 <br>
 <br>
-{{ action_btn(link="/events", button_text="Events", descriptor_text="The best way to learn about Gopher Graphics is to come to one of our") }}
+{% <action_btn
+    link="/events"
+    descriptor_text="The best way to learn about Gopher Graphics is to come to one of our"
+    button_text="Events"
+>%}{% </action_btn> %}

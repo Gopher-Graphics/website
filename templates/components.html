@@ -1,0 +1,10 @@
+{% component action_btn(link, descriptor_text, button_text) %}
+<div class="flex flex-row w-full justify-end font-light text-slate-900">
+    <div class="flex flex-row items-end gap-1.5">
+        <div class="text-right p-1.5">{{ descriptor_text }}</div>
+        <a class="bg-rose-300 hover:bg-rose-200 active:bg-rose-100 h-max p-1.5" href="{{ link }}">
+            {{ button_text }}
+        </a>
+    </div>
+</div>
+{% endcomponent action_btn %}

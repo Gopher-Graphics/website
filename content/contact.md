@@ -8,4 +8,8 @@ These are our officers for fall semester of 2026.
 The best way to reach us is at our club email.
 <br>
 <br>
-{{ action_btn(link="mailto:gfx@umn.edu", button_text="gfx@umn.edu", descriptor_text="Send us an email at") }}
+{% <action_btn
+    link="mailto:gfx@umn.edu"
+    descriptor_text="Send us an email at"
+    button_text="gfx@umn.edu"
+>%}{% </action_btn> %}
