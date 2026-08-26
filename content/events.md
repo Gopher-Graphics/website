@@ -12,4 +12,4 @@ If you plan on coming to an event, please [RSVP](@/rsvp.md).
 RSVPs help us get funding and keep the club alive!
 <br>
 <br>
-<iframe class="w-full h-120" src="https://calendar.google.com/calendar/u/0/newembed?src=c_fcb836a06aa779a6b8e378ce745bdb8b770de6328c4b52c26a40f16fcb3eaa56@group.calendar.google.com" style="border: 0" frameborder="0" scrolling="no"></iframe>
+<iframe title="Gopher Graphics Public Calendar" class="w-full h-120" src="https://calendar.google.com/calendar/u/0/newembed?src=c_fcb836a06aa779a6b8e378ce745bdb8b770de6328c4b52c26a40f16fcb3eaa56@group.calendar.google.com" style="border: 0" frameborder="0" scrolling="no"></iframe>

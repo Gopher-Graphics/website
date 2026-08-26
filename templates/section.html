@@ -1,11 +1,11 @@
 {% extends "base.html" %}
 
 {% block content %}
-<div class="border p-3.5 font-light text-slate-900 border-slate-900 gap-3 flex flex-col">
+<main role="main" class="border p-3.5 font-light text-slate-900 border-slate-900 gap-3 flex flex-col">
     <h1 class="text-3xl">
         {{ section.title }}
     </h1>
     {{ section.content | safe }}
-</div>
+</main>
 {% block section_body %} {% endblock section_body %}
 {% endblock content %}
