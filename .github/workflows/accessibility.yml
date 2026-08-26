@@ -20,4 +20,5 @@ jobs:
       - name: install and run pa11y accessibility checks
         run: |
           npm i
+          sudo apt-get install -y google-chrome-stable
           npm run test

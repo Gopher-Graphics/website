@@ -3,6 +3,11 @@
         "viewport": {
             "width": 320,
             "height": 480
+        },
+        "chromeLaunchConfig": {
+            "args": [
+                "--no-sandbox"
+            ]
         }
     },
     "urls": [
