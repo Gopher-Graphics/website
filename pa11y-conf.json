@@ -1,0 +1,17 @@
+{
+    "defaults": {
+        "viewport": {
+            "width": 320,
+            "height": 480
+        }
+    },
+    "urls": [
+        "http://localhost:1111/",
+        "http://localhost:1111/about/",
+        "http://localhost:1111/contact/",
+        "http://localhost:1111/events/",
+        "http://localhost:1111/join",
+        "http://localhost:1111/links/",
+        "http://localhost:1111/demos/"
+    ]
+}
