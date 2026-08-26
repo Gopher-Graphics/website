@@ -15,4 +15,7 @@ _Our Discord is the easiest way to contact organization members and officers onl
 _Our University of Minnesota GopherLink has university official information about our club. Our university ID is 4771. This is pretty empty._
 
 [RSVP For Events](@/rsvp.md)<br>
-_Use this form to RSVP for events. Getting RSVPs helps us get funding from the department._
+_Use this form to RSVP for events._
+
+[Event Attendance Form](@/here.md)<br>
+_Use this form when you attend a Gopher Graphics event._
