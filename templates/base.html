@@ -22,8 +22,13 @@
 
             urlParameters.delete("an");
             const strippedSearchParams = "?".concat(urlParameters.toString())
-            const newPath = window.location.pathname.concat(strippedSearchParams, window.location.hash);
+            let newPath = window.location.pathname;
 
+            if (strippedSearchParams != "?") {
+                newPath = newPath.concat(strippedSearchParams)
+            }
+
+            newPath = newPath.concat(window.location.hash)
             window.history.replaceState({}, document.title, newPath);
         }
     </script>
