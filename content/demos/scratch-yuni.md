@@ -7,3 +7,4 @@ template = "demo-scratch-yuni.html"
 The demo below is interactive.
 
 Use WASD to move, click to interact.
+X will reset your position, in case you fall off the map.
