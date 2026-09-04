@@ -12,13 +12,20 @@
 
     <!-- an Analytics script: https://codeberg.org/arbor/an -->
     <script>
-        const analyticsURL = "http://an.gopher.graphics"
+        const analyticsURL = "http://an.gopher.graphics/"
 
         const urlParameters = new URLSearchParams(document.location.search);
         const referrer = urlParameters.get("an");
 
-        fetch(analyticsURL.concat(referrer));
-        window.history.replaceState({}, document.title, window.location.pathname);
+        if (referrer) {
+            fetch(analyticsURL.concat(referrer));
+
+            urlParameters.delete("an");
+            const strippedSearchParams = "?".concat(urlParameters.toString())
+            const newPath = window.location.pathname.concat(strippedSearchParams, window.location.hash);
+
+            window.history.replaceState({}, document.title, newPath);
+        }
     </script>
 </head>
 
