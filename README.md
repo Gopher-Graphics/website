@@ -1,6 +1,6 @@
 # Gopher Graphics Website
 
-[gopher.graphics](https://gopher.graphics)
+[gopher.graphics](https://gopher.graphics/?an=github-readme)
 
 We are a student organization at the University of Minnesota Twin Cities.
 
@@ -12,8 +12,8 @@ We also have a demo party at the end of each semester where students can show of
 
 That's awesome!
 
-The best way to get involved is to come to one of our events, available on our [events calendar](https://gopher.graphics/events).
-If you want to become a member, more information can be found [here](https://gopher.graphics/join).
+The best way to get involved is to come to one of our events, available on our [events calendar](https://gopher.graphics/events/?an=github-readme).
+If you want to become a member, more information can be found [here](https://gopher.graphics/join/?an=github-readme).
 
 ## I Want to Help
 
