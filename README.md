@@ -23,3 +23,8 @@ If you would like to help with the site, see [CONTRIBUTING.md](CONTRIBUTING.md).
 - [Tailwind](https://tailwindcss.com/) is used to style the site using [utility classes](https://tailwindcss.com/docs/styling-with-utility-classes).
 
 [CHANGELOG.md](CHANGELOG.md) has a history of changes to the site.
+
+Build with Nix:
+```
+nix build -L .#site
+```
