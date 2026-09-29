@@ -16,19 +16,11 @@
         pkgs = nixpkgs.legacyPackages.${system};
       in
       rec {
-        devShell = pkgs.mkShell {
-          buildInputs = with pkgs; [
-            zola
-            woff2
-            tailwindcss_4
-            nodejs
-          ];
-        };
         packages.site = pkgs.stdenv.mkDerivation {
           name = "site";
           src = ./.;
 
-          nativeBuildInputs = [ pkgs.zola pkgs.tailwindcss_4 pkgs.nodejs ];
+          nativeBuildInputs = [ pkgs.zola pkgs.tailwindcss_4 ];
           buildPhase = ''
             zola build
             tailwindcss -i ./static/pretailwind.css -o $out/public/style.css -m
