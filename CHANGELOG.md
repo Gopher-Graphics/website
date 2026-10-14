@@ -31,3 +31,7 @@ Bump either big or default and add a new list of changes when you make a PR.
 - Officer information cards added.
 - Officer cards link or show images if metadata is available.
 - Links page to show list of quick links / redirects.
+
+## 0.4-tweaks
+
+- Link added for officer meetings at [gopher.graphics/meet](https://gopher.graphics/meet).
