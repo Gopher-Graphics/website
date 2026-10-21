@@ -1,12 +1,12 @@
 +++
 title = "Ray Tracing 2"
 date = 2026-10-28
-description = "October 28, 2026. Dielectric scattering and more examples."
+description = "October 28, 2026. Advanced rendering techniques and more examples."
 template = "article.html"
 +++
 _October 28, 2026_
 
-This is an upcoming workshop about the dielectric scattering method in ray tracing.
+This is an upcoming workshop covering more advanced rendering techniques.
 
 This workshop is interactive, and you will need a browser that supports WebGPU.
 
