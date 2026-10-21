@@ -39,3 +39,5 @@ Bump either big or default and add a new list of changes when you make a PR.
 ## 0.5-sections
 
 - Workshops section with ray tracing workshops added.
+- Image gallery set up with graphics images from members.
+
