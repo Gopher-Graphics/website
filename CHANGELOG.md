@@ -35,3 +35,7 @@ Bump either big or default and add a new list of changes when you make a PR.
 ## 0.4-tweaks
 
 - Link added for officer meetings at [gopher.graphics/meet](https://gopher.graphics/meet).
+
+## 0.5-sections
+
+- Workshops section with ray tracing workshops added.
