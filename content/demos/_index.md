@@ -1,6 +1,6 @@
 +++
 title = "Demos"
-template = "demo-list.html"
+template = "list-section.html"
 page_template = "demo.html"
 sort_by = "weight"
 +++
