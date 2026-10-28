@@ -18,6 +18,6 @@ MacOS (Apple Silicon): Safari is best, Chromium-based browsers and Firefox will 
 MacOS (Intel/Other): Chromium-based browsers are best,
 Firefox will work, but will be slower.
 
-Linux: Chromium-based browsers are preferred. Make sure to enable "enable-unsafe-webgpu" in `about:flags`.
+Linux: Chromium-based browsers are preferred. Make sure to enable "enable-unsafe-webgpu", "enable-gpu-rasterization", and "ignore-gpu-blocklist" in `about:flags`.
 
 You can check if your browser is supported at [webgpureport.org](https://webgpureport.org).
